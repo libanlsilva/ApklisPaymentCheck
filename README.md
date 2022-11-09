@@ -1,4 +1,4 @@
-# ApklisPaymentCheck
+# ApklisPaymentCheck in Xamarin.Forms
 Ejemplo de como verificar el pago de una APP en  [Apklis](https://www.apklis.cu/es/) con Xamarin.Forms
 
 # Como usar: 
