@@ -26,7 +26,7 @@ namespace ApklisPaymentCheck.Droid.CrossPlataform
         {
 
         }
-        public (bool, string) GetPaidInfo(string pakageName)
+        public (bool isPaid, string userName) GetPaidInfo(string pakageName)
         {
             Android.Net.Uri providerUri = Android.Net.Uri.Parse($"{APKLIS_PROVIDER}{pakageName}");
             var contentResolver = Application.Context.ContentResolver.AcquireContentProviderClient(providerUri);
