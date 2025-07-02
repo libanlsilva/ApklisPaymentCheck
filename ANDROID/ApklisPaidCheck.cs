@@ -16,7 +16,7 @@ namespace ApklisPaymentCheck.Droid.CrossPlataform
 {
     public class ApklisPaidCheck : IApklisPaidCheck
     {
-        private string APKLIS_PROVIDER = "content://cu.uci.android.apklis.payment.provider/app/";
+        private string APKLIS_PROVIDER = "content://cu.uci.android.apklis.PaymentProvider/app/";
         private string APKLIS_PAID = "paid";
         private string APKLIS_USER_NAME = "user_name";
         private bool paid = false;
