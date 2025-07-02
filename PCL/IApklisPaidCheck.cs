@@ -6,6 +6,6 @@ namespace ApklisPaymentCheck.CrossPlataform
 {
     public interface IApklisPaidCheck
     {
-        (bool, string) GetPaidInfo(string pakageName);
+        (bool isPaid, string userName) GetPaidInfo(string pakageName);
     }
 }
